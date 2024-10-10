@@ -12,13 +12,14 @@ import tutorImage3 from '/assets/tutorpictures/cliff.jpg';
 
 const Home = () => {
   const images = [
-    process.env.PUBLIC_URL + "/assets/dimelive.jpg",
-    process.env.PUBLIC_URL + "/assets/dimestudio.jpg",
-    process.env.PUBLIC_URL + "/assets/vinnie.jpg",
-    process.env.PUBLIC_URL + "/assets/panteralive.jpg",
-    process.env.PUBLIC_URL + "/assets/vinnielive2.jpg"
+    "/FBDfrontend-vite-deploy/assets/dimelive.jpg",
+    "/FBDfrontend-vite-deploy/assets/dimestudio.jpg",
+    "/FBDfrontend-vite-deploy/assets/vinnie.jpg",
+    "/FBDfrontend-vite-deploy/assets/panteralive.jpg",
+    "/FBDfrontend-vite-deploy/assets/vinnielive2.jpg"
   ];
   
+
   const sampleTutors = [
     {
       image: tutorImage1,
