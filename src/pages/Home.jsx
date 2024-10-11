@@ -12,14 +12,12 @@ import tutorImage3 from '/assets/tutorpictures/cliff.jpg';
 
 const Home = () => {
   const images = [
-    "https://jagmetal.github.io/blackhorse-deploy/assets/dimelive.jpg",
-    "https://jagmetal.github.io/blackhorse-deploy/assets/dimestudio.jpg",
-    "https://jagmetal.github.io/blackhorse-deploy/assets/vinnie.jpg",
-    "https://jagmetal.github.io/blackhorse-deploy/assets/panteralive.jpg",
-    "https://jagmetal.github.io/blackhorse-deploy/assets/vinnielive2.jpg"
+    "/assets/tutorpictures/dimelive.jpg",
+    "/assets/tutorpictures/dimestudio.jpg",
+    "/assets/tutorpictures/vinnie.jpg",
+    "/assets/tutorpictures/panteralive.jpg",
+    "/assets/tutorpictures/vinnielive2.jpg"
   ];
-  
-  
 
   const sampleTutors = [
     {
