@@ -10,13 +10,20 @@ import tutorImage1 from '/assets/tutorpictures/dimeprofile.jpg';
 import tutorImage2 from '/assets/tutorpictures/vinnielive.jpg';
 import tutorImage3 from '/assets/tutorpictures/cliff.jpg';
 
+import slideImage1 from '/assets/dimelive.jpg';
+import slideImage2 from '/assets/dimestudio.jpg';
+import slideImage3 from '/assets/vinnie.jpg';
+import slideImage4 from '/assets/panteralive.jpg';
+import slideImage5 from '/assets/vinnielive2.jpg';
+
 const Home = () => {
+  // Updated images array to use imported images
   const images = [
-    "/assets/tutorpictures/dimelive.jpg",
-    "/assets/tutorpictures/dimestudio.jpg",
-    "/assets/tutorpictures/vinnie.jpg",
-    "/assets/tutorpictures/panteralive.jpg",
-    "/assets/tutorpictures/vinnielive2.jpg"
+    slideImage1,
+    slideImage2,
+    slideImage3,
+    slideImage4,
+    slideImage5
   ];
 
   const sampleTutors = [
